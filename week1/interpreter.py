@@ -1,3 +1,6 @@
+# Interpreter 
+
+
 def main():
     expression = input("Enter your expression: ")
     x,y,z = expression.split(" ")
@@ -19,4 +22,5 @@ def main():
     else:
         return "Invalid Input."
 
-main()
+if __name__ == "__main__":
+    main()
