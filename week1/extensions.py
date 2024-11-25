@@ -2,6 +2,7 @@ def main():
     file = input("Enter your File name: ").lower().strip()
     answer = check(file)
     print (answer)
+    
 
 def check(file):
     if file.endswith(".gif"):
@@ -25,4 +26,6 @@ def check(file):
     else:
         return "application/octet-stream"
 
-main()
+
+if __name__ == "__main__":
+    main()
