@@ -1,3 +1,6 @@
+# Deep Problem
+
+
 def main():
     question = input("What is the Answer to the Great Question of Life, the Universe, and Everything? ").lower().strip()
 
@@ -11,4 +14,5 @@ def check(question):
     else:
         return "No"
     
-main()
+if __name__ == "__main__":
+    main()
