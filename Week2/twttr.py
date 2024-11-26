@@ -1,3 +1,6 @@
+# Vowel Remover
+
+
 def main():
     cool_string = input("Enter a string: ")
     ans_string = ""
@@ -15,4 +18,5 @@ def convert(cool_string, ans_string):
 
     return ans_string
 
-main()
+if __name__ == "__main__":
+    main()
