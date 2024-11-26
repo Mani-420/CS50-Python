@@ -1,3 +1,6 @@
+# Buying Coke 
+
+
 def main():
     amount_due = 50
     print (f"Amount Due: {amount_due}")
@@ -23,4 +26,5 @@ def convert(amount_due, inserted_coins):
             print (f"Amount Due: {amount_due}")
             insert_amount = int(input("Insert Coin: "))
     
-main()
+if __name__ == "__main__":
+    main()
