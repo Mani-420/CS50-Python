@@ -1,3 +1,6 @@
+# Camel case to snake case 
+
+
 def main():
     camelCase = input("Enter in camel case: ")
     snake_case = ""
@@ -14,4 +17,5 @@ def convert(camelCase, snake_case):
 
     return snake_case
 
-main()
+if __name__ == "__main__":
+    main()
