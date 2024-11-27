@@ -1,3 +1,6 @@
+# Fuel Problem
+
+
 def main():
     while True:
         try:
@@ -40,4 +43,5 @@ def check(first, second):
     else:
         return (str(percentage) + "%")
 
-main()
+if __name__ == "__main__":
+    main()
