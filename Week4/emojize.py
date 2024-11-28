@@ -1,3 +1,6 @@
+# Emojize Problem
+
+
 import emoji
 
 def main():
@@ -5,4 +8,5 @@ def main():
     output = emoji.emojize(message, language='alias')
     print("Output: ",output)
 
-main()
+if __name__ == "__main__":
+    main()
