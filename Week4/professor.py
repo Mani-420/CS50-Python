@@ -1,5 +1,7 @@
-import random
+# Little Professor Game
 
+
+import random
 
 def main():
     level = get_level()
